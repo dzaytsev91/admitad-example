@@ -1,13 +1,13 @@
-##Create virtualenv
+## Create virtualenv
 `virtualenv -p python3 venv`  
 
-####activate virtualenv  
+#### activate virtualenv  
 `source venv/bin/activate`
 
-##Install requirements
+## Install requirements
 `pip install -r requirements.txt`
 
-##Run code
+## Run code
 `export CLIENT_ID=client_id`  
 `export CLIENT_SECRET=client_secret`  
 `python main.py`
